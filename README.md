@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="favicon.svg" width="80" alt="Port Hub icon" />
+</p>
+
 # Port Hub
 
 A zero-dependency local dashboard that auto-detects your running dev servers and displays them as live preview cards.
