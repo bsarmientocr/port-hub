@@ -1,0 +1,27 @@
+{
+  "name": "port-hub",
+  "version": "1.0.0",
+  "description": "Local dev server dashboard with live previews. Auto-detects running servers, Docker containers, and displays them as clickable monitor cards.",
+  "main": "server.js",
+  "bin": {
+    "port-hub": "./server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "dev-tools",
+    "localhost",
+    "dashboard",
+    "ports",
+    "dev-server",
+    "docker",
+    "preview"
+  ],
+  "author": "bsarmiento",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}

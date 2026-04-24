@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="#1a1a1a" stroke="#4a9" stroke-width="2"/>
+
+  <!-- Center hub circle -->
+  <circle cx="32" cy="32" r="8" fill="#4a9"/>
+  <circle cx="32" cy="32" r="4" fill="#1a1a1a"/>
+
+  <!-- Port connectors radiating out -->
+  <!-- Top -->
+  <line x1="32" y1="24" x2="32" y2="14" stroke="#4a9" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="28" y="8" width="8" height="6" rx="1.5" fill="none" stroke="#4a9" stroke-width="1.5"/>
+  <line x1="30.5" y1="10" x2="30.5" y2="12" stroke="#4a9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="33.5" y1="10" x2="33.5" y2="12" stroke="#4a9" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Top-right -->
+  <line x1="37.6" y1="26.4" x2="44.2" y2="19.8" stroke="#4a9" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="43.5" y="13" width="8" height="6" rx="1.5" fill="none" stroke="#febc2e" stroke-width="1.5" transform="rotate(45 47.5 16)"/>
+  <circle cx="47.5" cy="16" r="1.2" fill="#febc2e"/>
+
+  <!-- Right -->
+  <line x1="40" y1="32" x2="50" y2="32" stroke="#4a9" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="50" y="28" width="8" height="8" rx="1.5" fill="none" stroke="#4a9" stroke-width="1.5"/>
+  <line x1="52.5" y1="30.5" x2="52.5" y2="33.5" stroke="#4a9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="55.5" y1="30.5" x2="55.5" y2="33.5" stroke="#4a9" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Bottom-right -->
+  <line x1="37.6" y1="37.6" x2="44.2" y2="44.2" stroke="#4a9" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="43.5" y="41" width="8" height="6" rx="1.5" fill="none" stroke="#ff5f57" stroke-width="1.5" transform="rotate(-45 47.5 44)"/>
+  <circle cx="47.5" cy="44" r="1.2" fill="#ff5f57"/>
+
+  <!-- Bottom -->
+  <line x1="32" y1="40" x2="32" y2="50" stroke="#4a9" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="28" y="50" width="8" height="6" rx="1.5" fill="none" stroke="#4a9" stroke-width="1.5"/>
+  <line x1="30.5" y1="52" x2="30.5" y2="54" stroke="#4a9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="33.5" y1="52" x2="33.5" y2="54" stroke="#4a9" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Bottom-left -->
+  <line x1="26.4" y1="37.6" x2="19.8" y2="44.2" stroke="#4a9" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="12.5" y="41" width="8" height="6" rx="1.5" fill="none" stroke="#28c840" stroke-width="1.5" transform="rotate(45 16.5 44)"/>
+  <circle cx="16.5" cy="44" r="1.2" fill="#28c840"/>
+
+  <!-- Left -->
+  <line x1="24" y1="32" x2="14" y2="32" stroke="#4a9" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="6" y="28" width="8" height="8" rx="1.5" fill="none" stroke="#4a9" stroke-width="1.5"/>
+  <line x1="8.5" y1="30.5" x2="8.5" y2="33.5" stroke="#4a9" stroke-width="1" stroke-linecap="round"/>
+  <line x1="11.5" y1="30.5" x2="11.5" y2="33.5" stroke="#4a9" stroke-width="1" stroke-linecap="round"/>
+
+  <!-- Top-left -->
+  <line x1="26.4" y1="26.4" x2="19.8" y2="19.8" stroke="#4a9" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="12.5" y="13" width="8" height="6" rx="1.5" fill="none" stroke="#febc2e" stroke-width="1.5" transform="rotate(-45 16.5 16)"/>
+  <circle cx="16.5" cy="16" r="1.2" fill="#febc2e"/>
+
+  <!-- Glow on center -->
+  <circle cx="32" cy="32" r="8" fill="none" stroke="#4a9" stroke-width="1" opacity="0.3">
+    <animate attributeName="r" values="8;11;8" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.1;0.3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
